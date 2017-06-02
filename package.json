@@ -1,0 +1,30 @@
+{
+  "name": "ghost-storj-store",
+  "version": "0.1.0",
+  "description": "External storj store plugin for Ghost Blog.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QzSG/ghost-storj-store.git"
+  },
+  "keywords": [
+    "ghost",
+    "storj",
+    "storage",
+    "plugin",
+    "blog"
+  ],
+  "author": "QzSG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QzSG/ghost-storj-store/issues"
+  },
+  "homepage": "https://github.com/QzSG/ghost-storj-store",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "storj": "git+https://github.com/storj/storj.js.git"
+  }
+}
