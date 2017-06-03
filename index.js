@@ -10,14 +10,12 @@ var storj;
 var bucketId;
 
 function StorjStore(config) {
-    console.dir(config)
     BaseStore.call(this);
     options.key = config.key;
     options.encryptionKey = config.encryptionKey;
     storj = new Storj(options);
     storj = Promise.promisifyAll(storj);
     bucketId = config.bucket_id;
-
 }
 
 util.inherits(StorjStore, BaseStore);
