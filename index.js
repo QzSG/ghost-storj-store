@@ -48,15 +48,16 @@ StorjStore.prototype.serve = function () {
     return function (req, res) {
         var fileId = req.path.split('//')[1];
         var fullPath = req.path.split('//')[2];
-        
-        var stream = storj.download(bucketId, fileId);
-        stream.pipe(res)
-            .on('end', function () {
-                res.end();
 
-            })
-            .on('error', function (err) {
-            });
+        var stream = storj.download(bucketId, fileId);
+        stream.pipe(res);
+        stream.on('end', function () {
+            res.end();
+
+        });
+        stream.on('error', function (err) {
+            next();
+        });
     };
 
 };

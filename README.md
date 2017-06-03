@@ -17,6 +17,10 @@ An example Ghost blog on Bluemix utilising ghost-storj-store
 
 [Ghost Storj Blog](https://storj.qz.sg)
 
+## Important Notes
+
+If you are using version under `0.2.0`, kindly update to the latest version on or above `0.2.0`.
+Version `0.2.0` fixes a critical bug which may cause your ghost app to crash due to incorrect listeners implemented for streams.
 
 ## Installation
 
