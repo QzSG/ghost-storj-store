@@ -15,7 +15,7 @@ Requests to `/content/images/storj` will be proxied to Storj to serve uploaded i
 
 An example Ghost blog on Bluemix utilising ghost-storj-store
 
-https://bluemix-ghost-storj.mybluemix.net
+[Bluemix Ghost Storj Blog](https://bluemix-ghost-storj.mybluemix.net)
 
 
 ## Installation
