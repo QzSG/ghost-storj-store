@@ -11,6 +11,13 @@ A simple adapter to add [Storj Storage](https://storj.io) support for a Ghost Bl
 
 Requests to `/content/images/storj` will be proxied to Storj to serve uploaded images
 
+## Example
+
+An example Ghost blog on Bluemix utilising ghost-storj-store
+
+https://bluemix-ghost-storj.mybluemix.net
+
+
 ## Installation
 
 ### Via NPM
