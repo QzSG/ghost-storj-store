@@ -83,6 +83,12 @@ It also assumes that you have created a bucket that you are going to use with yo
 
 Feel free to open an issue, but please do check if a similar issue already exists.
 
+## Support Development
+
+### Buy me a cuppa 
+
+BTC  : 1QzSG1xY8PWjg5advFHQwcSWzRzaeuB9y
+
 ## Copyright & License
 
 Copyright (c) QzSG - Released under the [MIT license](LICENSE).
