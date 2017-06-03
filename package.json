@@ -1,6 +1,6 @@
 {
   "name": "ghost-storj-store",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "External storj store plugin for Ghost Blog.",
   "main": "index.js",
   "scripts": {
