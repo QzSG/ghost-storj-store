@@ -35,7 +35,7 @@ StorjStore.prototype.save = function (image) {
         var createFile = storj.createFile(bucketId, targetFilename, fs.createReadStream(image.path));
         createFile.on('done', (file) => {
             var fileId = file.id;
-            var storjUrl = `/content/images/storj//${fileId}//${targetFilename}`;
+            var storjUrl = `/content/images/storj/${fileId}/${targetFilename}`;
             resolve(storjUrl);
         });
         createFile.on('error', (err) => {
@@ -46,8 +46,8 @@ StorjStore.prototype.save = function (image) {
 
 StorjStore.prototype.serve = function () {
     return function (req, res) {
-        var fileId = req.path.split('//')[1];
-        var fullPath = req.path.split('//')[2];
+        var fileId = req.path.split('/')[2];
+        var fullPath = req.path.split('/')[3];
 
         var stream = storj.download(bucketId, fileId);
         stream.pipe(res);
