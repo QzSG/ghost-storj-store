@@ -19,7 +19,7 @@ An example Ghost blog on Bluemix utilising ghost-storj-store
 
 ## Important Notes
 
-!!! Critical
+### !!! Critical
 
 Plugin is currently broken due to changes in Storj bridge and the fact that the repo this plugin depends on is no longer updated.
 I will update this plugin and the sample blog to work using the new `node-storj` repo in a few weeks time. Meanwhile.. it's just not working.
