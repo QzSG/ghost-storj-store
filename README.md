@@ -1,3 +1,8 @@
+### !!! Critical
+
+Plugin is currently broken due to changes in Storj bridge and the fact that the repo this plugin depends on is no longer updated.
+I will update this plugin and the sample blog to work using the new `node-storj` repo in a few weeks time. Meanwhile.. it's just not working.
+
 # Storj Store for Ghost Blogs :ghost::zap::cloud:
 [![GitHub release](https://img.shields.io/github/release/QzSG/ghost-storj-store.svg?style=flat-square)](https://github.com/QzSG/ghost-storj-store/releases)
 [![Supported Ghost Version](https://img.shields.io/badge/ghost%20supported-^0.10.0-brightgreen.svg?maxAge=2592000&style=flat-square)](https://github.com/TryGhost/Ghost)
@@ -18,11 +23,6 @@ An example Ghost blog on Bluemix utilising ghost-storj-store
 [Ghost Storj Blog](https://storj.qz.sg)
 
 ## Important Notes
-
-### !!! Critical
-
-Plugin is currently broken due to changes in Storj bridge and the fact that the repo this plugin depends on is no longer updated.
-I will update this plugin and the sample blog to work using the new `node-storj` repo in a few weeks time. Meanwhile.. it's just not working.
 
 Version `0.3.1` fixes images not appearing in AMP articles
 
