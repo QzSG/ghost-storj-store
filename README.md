@@ -18,6 +18,12 @@ An example Ghost blog on Bluemix utilising ghost-storj-store
 [Ghost Storj Blog](https://storj.qz.sg)
 
 ## Important Notes
+
+!!! Critical
+
+Plugin is currently broken due to changes in Storj bridge and the fact that the repo this plugin depends on is no longer updated.
+I will update this plugin and the sample blog to work using the new `node-storj` repo in a few weeks time. Meanwhile.. it's just not working.
+
 Version `0.3.1` fixes images not appearing in AMP articles
 
 If you are using version under `0.2.0`, kindly update to the latest version on or above `0.2.0`.
